@@ -1,4 +1,5 @@
-#ACM SIGMOD 2023 Programming Contest
+# ACM SIGMOD 2023 Programming Contest
+
 This is the code for runner-up solution of [ACM SIGMOD 2023 Programming Contest](http://sigmod2023contest.eastus.cloudapp.azure.com/leaders.shtml). The main idea of this method can be found in the [poster](https://github.com/gawkAtCode/ACM-SIGMOD-2023-Programming-Contest-Runner-Up/blob/main/poster-CantonDwenDwen.pdf).
 
 This code can generate an approximate K-nearest-neighbor graph in a very short time for tens of millions of high-dimensional vectors.
