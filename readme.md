@@ -5,7 +5,7 @@ This is the code for runner-up solution of [ACM SIGMOD 2023 Programming Contest]
 This code can generate an approximate K-nearest-neighbor graph in a very short time for tens of millions of high-dimensional vectors.
 
 ## Running environment 
-_____________________________________
+------
 Our program is written entirely in `python` and we write the dependency condition and library information of the program in [requirements.txt](https://github.com/gawkAtCode/ACM-SIGMOD-2023-Programming-Contest-Runner-Up/blob/main/requirements.txt).If you want to run the code successfully, please install these dependencies first.
 
 Our program also uses [pynndescent](https://github.com/lmcinnes/pynndescent), but you do not need to download it. This is because we have made so many changes to the pyndescent source code that we have packaged it separately, in a folder named [pynndescent_opt](https://github.com/gawkAtCode/ACM-SIGMOD-2023-Programming-Contest-Runner-Up/tree/main/pynndescent_opt), where you can see our modified pyndescent code.
