@@ -13,10 +13,10 @@ Our program also uses [pynndescent](https://github.com/lmcinnes/pynndescent), bu
 ## Program introduction
 
 Our program consists of two main parts,initial graph construction and graph refinement.
-### Initial graph construction
+* Step 1：Initial graph construction
 
 After reading the content-data-release-10m.bin, we used faiss.index_factory(dim = 100,index_string="IVF1100,PQ100x4fsr,RFlat",nprobe=77,k=340) to build an initial graph of the data.
-### Graph refinement
+* Step 1：Graph refinement
 
 We then performed a round of nndescent on the initial graph using a modified pynndescent to update the neighbour index I by reversing the neighbours and looking up the neighbours' neighbours.
 ## Running
