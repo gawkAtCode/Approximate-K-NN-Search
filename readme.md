@@ -28,14 +28,14 @@ Our program consists of two main parts,initial graph construction and graph refi
 
 Build an approximate 100-NN Graph for 10M 100-dimensional vectors in the [contest](http://sigmod2023contest.eastus.cloudapp.azure.com/leaders.shtml). 
 * Test Details:
-** Processor：      32 CPU x 2.7 GHz  (Azure Standard F32s_v2)
-** Main Memory：    64 GB
-** Storage：        32 GB
-** Distance：L2
+    * Processor：      32 CPU x 2.7 GHz  (Azure Standard F32s_v2)
+    * Main Memory：    64 GB
+    * Storage：        32 GB
+    * Distance：L2
 
-* Recall@100: 0.984
+* Recall@100: **0.984**
 
-* Runtime(s): 1837
+* Runtime(s): **1837**
 
 ## Reference 
 
